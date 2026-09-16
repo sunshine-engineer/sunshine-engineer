@@ -1,4 +1,4 @@
-<img align="right" src="https://avatars.githubusercontent.com/u/258988699?v=4" width="120" alt="Sunny Sharma's GitHub profile photo" />
+<!-- <img align="right" src="https://avatars.githubusercontent.com/u/258988699?v=4" width="120" alt="Sunny Sharma's GitHub profile photo" /> -->
 
 # Sunny Sharma
 
