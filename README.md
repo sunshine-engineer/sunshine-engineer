@@ -1,16 +1,12 @@
-<!-- <img align="right" src="https://avatars.githubusercontent.com/u/258988699?v=4" width="120" alt="Sunny Sharma's GitHub profile photo" /> -->
-
 # Sunny Sharma
 
-### Applied GenAI & Data Engineer
+### Applied GenAI & Data Engineer · Python · RAG · Agentic workflows
 
-I build AI applications on a foundation of **four years in production data engineering**. My work connects Python, SQL, reliable data pipelines, retrieval, and tool-using agents to practical business workflows.
+I build AI applications backed by reliable data systems. My foundation is **approximately four years in data engineering** at Everlytics, working on enterprise migrations, ETL pipelines, SQL optimization, and production support. I now apply that experience to independent projects in document retrieval, tool-using agents, and natural-language data access.
 
-Currently developing independent GenAI projects and pursuing **Applied AI, GenAI Engineering, and AI Data Engineering roles in Delhi NCR**.
+**Open to Applied AI, Python + GenAI, and AI Data Engineering roles in Delhi NCR.**
 
-[LinkedIn](https://www.linkedin.com/in/sunny-sharma2022/) · [Email](mailto:sunny_sharma2022@outlook.com) · [Explore my repositories](https://github.com/sunshine-engineer?tab=repositories)
-
-<br clear="right" />
+**[Portfolio & case studies](https://sunshine-engineer.github.io/)** · [LinkedIn](https://www.linkedin.com/in/sunny-sharma2022/) · [Email](mailto:sunny_sharma2022@outlook.com) · [Repositories](https://github.com/sunshine-engineer?tab=repositories)
 
 ## Start here
 
@@ -18,8 +14,8 @@ These are independent portfolio projects. My commercial production experience is
 
 | Project | What it does | Engineering evidence |
 | --- | --- | --- |
-| **[Document QA & RAG](https://github.com/sunshine-engineer/Intelligent-Document-QA-Chatbot)** | Answers questions over PDFs with file/page citations using LangChain, FAISS, Ollama embeddings, and Groq. | Index-integrity manifests, modular query services, Docker Compose, automated tests, and a versioned offline evaluation fixture. [Quality gates](https://github.com/sunshine-engineer/Intelligent-Document-QA-Chatbot/blob/main/docs/quality-gates.md) |
-| **[AutoDocsGenAI](https://github.com/sunshine-engineer/AutoDocsGenAI)** | Builds a documentation ingestion and retrieval pipeline from official sources using Python, PostgreSQL, and pgvector. | Deterministic chunking, persisted lineage, idempotent imports, migrations, retrieval evaluation, and CI. Generation and review remain in development. [Architecture](https://github.com/sunshine-engineer/AutoDocsGenAI/blob/main/docs/architecture.md) |
+| **[Document QA & RAG](https://github.com/sunshine-engineer/Intelligent-Document-QA-Chatbot)** | Answers questions over PDFs with file/page citations using LangChain, FAISS, Ollama embeddings, and Groq. | Index-integrity manifests, modular query services, Docker Compose, and automated tests. The offline evaluation fixture checks regressions, not real-world answer quality. [Quality gates](https://github.com/sunshine-engineer/Intelligent-Document-QA-Chatbot/blob/main/docs/quality-gates.md) |
+| **[AutoDocsGenAI](https://github.com/sunshine-engineer/AutoDocsGenAI)** | Develops a documentation ingestion and retrieval pipeline from official sources using Python, PostgreSQL, and pgvector. | Deterministic chunking, persisted lineage, repeatable imports, and embedding/search/evaluation commands. The project is in progress; generation and review remain in development. [Architecture](https://github.com/sunshine-engineer/AutoDocsGenAI/blob/main/docs/architecture.md) |
 | **[Agentic AI Demo](https://github.com/sunshine-engineer/AgenticAI_Demo)** | Demonstrates bounded tool use, supervisor/specialist workflows, LangGraph checkpoints, and MCP in a support-operations scenario. | Explicit approval policy, validation, loop limits, traces, and offline tests. Uses dummy data and in-memory state. [Code and tests](https://github.com/sunshine-engineer/AgenticAI_Demo) |
 | **[AI SQL Assistant](https://github.com/sunshine-engineer/ai-sql-assistant)** | Provides a natural-language interface to SQLite, MySQL, and PostgreSQL through LangChain, Groq, and SQLAlchemy. | Schema discovery, input checks, read-only SQLite access, and response-time tracking. Application-level SQL checks are prototype safeguards, not a security boundary. [Screenshots and design](https://github.com/sunshine-engineer/ai-sql-assistant#readme) |
 
@@ -31,7 +27,7 @@ At Everlytics, I progressed from Data Engineering Intern to Data Engineer and Se
 
 - Contributed to a Teradata-to-SingleStore migration spanning **100+ TB**, and migrated or optimized **100+ Informatica workflows**.
 - Coordinated Airflow workflows across batch, CDC, and streaming ingestion, with validation, dependencies, monitoring, and release handover.
-- Owned a scheduled file-to-SingleStore pipeline end to end: archive validation, landing/staging loads, SCD Type 2 dimensions, fact loading, rejected-record handling, and task-level email alerts.
+- Owned a file-to-SingleStore pipeline from development and testing through production: compressed files arriving every five minutes, shell-based validation, landing/staging loads, SCD Type 2 dimensions, fact loading, rejected-record handling, task-level alerts, and archival.
 - Investigated failed loads and data discrepancies, tuned SQL and workflows, and communicated delivery risks and recovery actions to stakeholders.
 
 That experience shapes how I build AI systems: inspect failures, preserve data lineage, make workflows testable, and document operational limits.
@@ -49,6 +45,7 @@ That experience shapes how I build AI systems: inspect failures, preserve data l
 
 | Area | Tools and practices |
 | --- | --- |
+| Python & APIs | Python, FastAPI, REST APIs, SQLAlchemy, modular design, input validation |
 | Applied AI | RAG, embeddings, FAISS, pgvector, prompt/context design, tool calling, LangChain, LangGraph, Groq, Ollama |
 | Data systems | Python, SQL, Airflow, Informatica, PostgreSQL, SingleStore, Teradata, ETL, CDC, dimensional loading |
 | Quality and delivery | Pytest, GitHub Actions, Docker, type checking, retrieval evaluation, logging, LangSmith, root-cause analysis |
@@ -58,12 +55,12 @@ That experience shapes how I build AI systems: inspect failures, preserve data l
 - Better retrieval and answer-quality evaluation on representative documents.
 - Clear API boundaries and reproducible deployment for portfolio AI applications.
 - Reliable agent execution with explicit permissions, bounded state, and measurable failure handling.
+- Sharing project architecture and engineering lessons on [my portfolio](https://sunshine-engineer.github.io/).
 
 ## Live project signals
 
 [![RAG quality workflow](https://img.shields.io/github/actions/workflow/status/sunshine-engineer/Intelligent-Document-QA-Chatbot/quality.yml?branch=main&label=RAG%20quality)](https://github.com/sunshine-engineer/Intelligent-Document-QA-Chatbot/actions/workflows/quality.yml)
 [![AutoDocs CI](https://img.shields.io/github/actions/workflow/status/sunshine-engineer/AutoDocsGenAI/ci.yml?branch=main&label=AutoDocs%20CI)](https://github.com/sunshine-engineer/AutoDocsGenAI/actions/workflows/ci.yml)
-[![Latest RAG commit](https://img.shields.io/github/last-commit/sunshine-engineer/Intelligent-Document-QA-Chatbot?label=RAG%20updated)](https://github.com/sunshine-engineer/Intelligent-Document-QA-Chatbot/commits/main/)
 
 These badges reflect repository activity and workflow status. The project documentation explains what each check covers.
 
